@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
             http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-    <display-name>RESTEasy Demo Web Application</display-name>
+    <display-name>interceptordemo</display-name>
 
     <!-- root application context -->
     <context-param>
@@ -34,11 +34,8 @@
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
-    <!--
     <context-param>
         <param-name>resteasy.providers</param-name>
-        <param-value>com.demo.filter.RequestLoggingFilter</param-value>
+        <param-value>com.demo.interceptor.RequestLoggingInterceptor</param-value>
     </context-param>
-    -->
-
 </web-app>
