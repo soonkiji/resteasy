@@ -17,6 +17,9 @@ REM test
 echo curl http://192.168.99.100:8080/interceptordemo/users/1
 curl http://192.168.99.100:8080/interceptordemo/users/1
 
+echo curl http://192.168.99.100:8080/interceptordemo/user/post -X POST --header "Content-Type: application/json" -d "{\"name\":\"User (modified at %TIME%)\",\"id\":1}"
+curl http://192.168.99.100:8080/interceptordemo/user/post -X POST --header "Content-Type: application/json" -d "{\"name\":\"User (modified at %TIME%)\",\"id\":1}"
+
 REM cleanup
 echo docker cp interceptordemo_jboss_1:/jboss-as-7.1.1.Final/standalone/log/server.log .
 docker cp interceptordemo_jboss_1:/jboss-as-7.1.1.Final/standalone/log/server.log .
