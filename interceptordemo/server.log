@@ -1,0 +1,90 @@
+01:04:32,401 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+01:04:32,424 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+01:04:32,554 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+01:04:32,557 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+01:04:32,561 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+01:04:32,573 INFO  [org.jboss.as.connector] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+01:04:32,913 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+01:04:33,080 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+01:04:33,151 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013100: Current PicketBox version=4.0.7.Final
+01:04:33,223 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+01:04:33,622 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+01:04:34,016 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--0.0.0.0-8080
+01:04:34,174 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+01:04:34,867 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /0.0.0.0:9999
+01:04:34,968 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /jboss-as-7.1.1.Final/standalone/deployments
+01:04:35,097 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /0.0.0.0:4447
+01:04:35,178 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+01:04:35,213 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "interceptordemo.war"
+01:04:37,060 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry jaxb-api.jar in "/content/interceptordemo.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+01:04:37,062 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry activation.jar in "/content/interceptordemo.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+01:04:37,068 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry jsr173_1.0_api.jar in "/content/interceptordemo.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+01:04:37,072 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) Class Path entry jaxb1-impl.jar in "/content/interceptordemo.war/WEB-INF/lib/jaxb-impl-2.2.4.jar"  does not point to a valid jar for a Class-Path reference.
+01:04:37,779 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/interceptordemo]] (MSC service thread 1-1) No Spring WebApplicationInitializer types detected on classpath
+01:04:38,205 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/interceptordemo]] (MSC service thread 1-1) Initializing Spring root WebApplicationContext
+01:04:38,208 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-1) Root WebApplicationContext: initialization started
+01:04:38,723 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-1) Refreshing Root WebApplicationContext: startup date [Fri Feb 24 01:04:38 UTC 2017]; root of context hierarchy
+01:04:38,803 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-1) Loading XML bean definitions from class path resource [spring-context.xml]
+01:04:39,207 INFO  [org.springframework.context.annotation.ClassPathBeanDefinitionScanner] (MSC service thread 1-1) JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+01:04:39,218 INFO  [org.springframework.context.annotation.ClassPathBeanDefinitionScanner] (MSC service thread 1-1) JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+01:04:39,449 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-1) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+01:04:39,470 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] (MSC service thread 1-1) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@27aa7aac: defining beans [usersResource,requestLoggingInterceptor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+01:04:40,068 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-1) Root WebApplicationContext: initialization completed in 1859 ms
+01:04:40,186 INFO  [org.jboss.web] (MSC service thread 1-1) JBAS018210: Registering web context: /interceptordemo
+01:04:40,197 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015951: Admin console listening on http://0.0.0.0:9990
+01:04:40,198 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 10671ms - Started 178 of 255 services (76 services are passive or on-demand)
+01:04:40,290 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "interceptordemo.war"
+01:04:46,675 INFO  [stdout] (http--0.0.0.0-8080-1) RequestLoggingInterceptor.preProcess() servletRequest: com.sun.proxy.$Proxy28@4c97ed28[
+01:04:46,676 INFO  [stdout] (http--0.0.0.0-8080-1)   h=org.jboss.resteasy.core.ContextParameterInjector$GenericDelegatingProxy@50448192
+01:04:46,677 INFO  [stdout] (http--0.0.0.0-8080-1) ]
+01:04:46,678 INFO  [stdout] (http--0.0.0.0-8080-1) RequestLoggingInterceptor.preProcess() request: org.jboss.resteasy.plugins.server.servlet.HttpServletInputMessage@4196c169[
+01:04:46,679 INFO  [stdout] (http--0.0.0.0-8080-1)   httpHeaders=org.jboss.resteasy.specimpl.HttpHeadersImpl@2d247c45
+01:04:46,680 INFO  [stdout] (http--0.0.0.0-8080-1)   request=org.apache.catalina.connector.RequestFacade@5ba38598
+01:04:46,680 INFO  [stdout] (http--0.0.0.0-8080-1)   latch=<null>
+01:04:46,681 INFO  [stdout] (http--0.0.0.0-8080-1)   suspendTimeout=0
+01:04:46,681 INFO  [stdout] (http--0.0.0.0-8080-1)   dispatcher=org.jboss.resteasy.core.SynchronousDispatcher@257f6796
+01:04:46,682 INFO  [stdout] (http--0.0.0.0-8080-1)   httpResponse=org.jboss.resteasy.plugins.server.servlet.HttpServletResponseWrapper@7b1ebc46
+01:04:46,692 INFO  [stdout] (http--0.0.0.0-8080-1)   suspended=false
+01:04:46,693 INFO  [stdout] (http--0.0.0.0-8080-1)   uri=org.jboss.resteasy.specimpl.UriInfoImpl@314d0183
+01:04:46,694 INFO  [stdout] (http--0.0.0.0-8080-1)   httpMethod=GET
+01:04:46,695 INFO  [stdout] (http--0.0.0.0-8080-1)   preProcessedPath=/users/1
+01:04:46,695 INFO  [stdout] (http--0.0.0.0-8080-1)   formParameters=<null>
+01:04:46,696 INFO  [stdout] (http--0.0.0.0-8080-1)   decodedFormParameters=<null>
+01:04:46,696 INFO  [stdout] (http--0.0.0.0-8080-1)   asynchronousResponse=<null>
+01:04:46,697 INFO  [stdout] (http--0.0.0.0-8080-1)   overridenStream=<null>
+01:04:46,698 INFO  [stdout] (http--0.0.0.0-8080-1) ]
+01:04:46,703 INFO  [stdout] (http--0.0.0.0-8080-1) RequestLoggingInterceptor.preProcess() resourceMethod: org.jboss.resteasy.core.ResourceMethod@6bb0b0a0[
+01:04:46,703 INFO  [stdout] (http--0.0.0.0-8080-1)   produces={application/json}
+01:04:46,704 INFO  [stdout] (http--0.0.0.0-8080-1)   consumes=<null>
+01:04:46,705 INFO  [stdout] (http--0.0.0.0-8080-1)   methodConsumes=<null>
+01:04:46,705 INFO  [stdout] (http--0.0.0.0-8080-1)   preferredProduces=[application/json]
+01:04:46,706 INFO  [stdout] (http--0.0.0.0-8080-1)   preferredConsumes=[]
+01:04:46,707 INFO  [stdout] (http--0.0.0.0-8080-1)   httpMethods=[GET]
+01:04:46,708 INFO  [stdout] (http--0.0.0.0-8080-1)   methodInjector=org.jboss.resteasy.core.MethodInjectorImpl@13304421
+01:04:46,709 INFO  [stdout] (http--0.0.0.0-8080-1)   injector=org.jboss.resteasy.core.InjectorFactoryImpl@45c8dc5e
+01:04:46,710 INFO  [stdout] (http--0.0.0.0-8080-1)   resource=org.jboss.resteasy.plugins.spring.SpringResourceFactory@5fbc31d
+01:04:46,715 INFO  [stdout] (http--0.0.0.0-8080-1)   providerFactory=org.jboss.resteasy.spi.ResteasyProviderFactory@d5ba1ef
+01:04:46,716 INFO  [stdout] (http--0.0.0.0-8080-1)   method=public javax.ws.rs.core.Response com.demo.resource.UsersResource.getUser(int) throws java.io.IOException
+01:04:46,717 INFO  [stdout] (http--0.0.0.0-8080-1)   resourceClass=class com.demo.resource.UsersResource
+01:04:46,718 INFO  [stdout] (http--0.0.0.0-8080-1)   preProcessInterceptors={com.demo.interceptor.RequestLoggingInterceptor@173ebc5c}
+01:04:46,719 INFO  [stdout] (http--0.0.0.0-8080-1)   postProcessInterceptors={com.demo.interceptor.RequestLoggingInterceptor@173ebc5c}
+01:04:46,721 INFO  [stdout] (http--0.0.0.0-8080-1)   writerInterceptors={org.jboss.resteasy.plugins.interceptors.encoding.GZIPEncodingInterceptor@120fe256,org.jboss.resteasy.plugins.providers.jackson.JacksonJsonpInterceptor@50d4855d}
+01:04:46,730 INFO  [stdout] (http--0.0.0.0-8080-1)   stats={GET=1}
+01:04:46,735 INFO  [stdout] (http--0.0.0.0-8080-1)   genericReturnType=class javax.ws.rs.core.Response
+01:04:46,736 INFO  [stdout] (http--0.0.0.0-8080-1) ]
+01:04:47,049 INFO  [stdout] (http--0.0.0.0-8080-1) RequestLoggingInterceptor.postProcess() servletRequest: com.sun.proxy.$Proxy28@4c97ed28[
+01:04:47,050 INFO  [stdout] (http--0.0.0.0-8080-1)   h=org.jboss.resteasy.core.ContextParameterInjector$GenericDelegatingProxy@50448192
+01:04:47,051 INFO  [stdout] (http--0.0.0.0-8080-1) ]
+01:04:47,053 INFO  [stdout] (http--0.0.0.0-8080-1) RequestLoggingInterceptor.postProcess() serverResponse: org.jboss.resteasy.core.ServerResponse@7f5960fd[
+01:04:47,053 INFO  [stdout] (http--0.0.0.0-8080-1)   entity={"id":1,"name":"User one"}
+01:04:47,054 INFO  [stdout] (http--0.0.0.0-8080-1) 
+01:04:47,057 INFO  [stdout] (http--0.0.0.0-8080-1)   status=200
+01:04:47,057 INFO  [stdout] (http--0.0.0.0-8080-1)   metadata=org.jboss.resteasy.core.Headers@1501f8f4
+01:04:47,058 INFO  [stdout] (http--0.0.0.0-8080-1)   annotations={@javax.ws.rs.GET(),@javax.ws.rs.Path(value=/{id}),@javax.ws.rs.Produces(value=[application/json])}
+01:04:47,059 INFO  [stdout] (http--0.0.0.0-8080-1)   genericType=<null>
+01:04:47,060 INFO  [stdout] (http--0.0.0.0-8080-1)   postProcessInterceptors={com.demo.interceptor.RequestLoggingInterceptor@173ebc5c}
+01:04:47,063 INFO  [stdout] (http--0.0.0.0-8080-1)   messageBodyWriterInterceptors={org.jboss.resteasy.plugins.interceptors.encoding.GZIPEncodingInterceptor@120fe256,org.jboss.resteasy.plugins.providers.jackson.JacksonJsonpInterceptor@50d4855d}
+01:04:47,066 INFO  [stdout] (http--0.0.0.0-8080-1)   resourceMethod=public javax.ws.rs.core.Response com.demo.resource.UsersResource.getUser(int) throws java.io.IOException
+01:04:47,067 INFO  [stdout] (http--0.0.0.0-8080-1)   resourceClass=class com.demo.resource.UsersResource
+01:04:47,068 INFO  [stdout] (http--0.0.0.0-8080-1)   headersCommitted=false
+01:04:47,068 INFO  [stdout] (http--0.0.0.0-8080-1) ]
